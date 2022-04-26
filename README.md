@@ -1,7 +1,7 @@
-# allas-swift-get-token
+# allas-get-swift-token
 Allas SWIFT authentication utility application.
 
-The application is especially for Windows users who want to use SWIFT environment variable authentication. When using this application in Windows, you (or your local it-support) may have to configure your anti-virus etc software to allow running allas-swift-get-token.
+The application is a command line application especially for Windows users who want to use SWIFT environment variable authentication. When using this application in Windows, you (or your local it-support) may have to configure your anti-virus etc software to allow running allas-get-swift-token.
 
 There are also easier ways to authenticate than this application, see https://docs.csc.fi/data/Allas/ for further details.
 
