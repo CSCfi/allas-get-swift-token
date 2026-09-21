@@ -89,7 +89,7 @@ func main() {
   }
   defer resp.Body.Close()
 
-  if resp.Status != "201 Created" {
+  if ! strings.HasPrefix(resp.Status, "201 ") {
     fmt.Println("Authentication failed. HTTP response code:", resp.Status)
     os.Exit(1)
   }
